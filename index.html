@@ -16,27 +16,53 @@
 <body>
 <!-- AWAL  -->
 <style>
+.item0 { grid-area: Curriculum Vitae }
 .item1 { grid-area: judul; }
 .item2 { grid-area: bagian; }
 .item3 { grid-area: pengalaman }
+h1 { 
+    text-align: center;
+}
+h6 { 
+    text-align: center;
+}
+ul.b {
+  list-style-type: square;
+}
+
+div {
+padding: 60px;
+  border: 1px solid black;
+}
 
 p {
     font-family: verdana;
     font-size: 30px;
     color: salmon;
 }
+h1.hidden {
+  visibility: hidden;
+}
 
 </style>
 <div class="grid-container">
+    <h1> Curriculum Vitae </h1>
+    <h6>Berikut merupakan CV dari kami</h6>
     <div class="item1">Nama 
         <p>Chandra Sarah</p>
         <p>Information System ITS</p>
         <p>DPP C</p>
-</div>
-        
-    <div class="item2">Bagian</div>
+    </div>
+    <div class="item2">Study
+    <ul class="a">
+        <li>SDN 1 Surabaya</li>
+        <li>SMPN1 Surabaya</li>
+        <li>SMAN 1 Surabaya</li>
+      </ul>
+    </div>
     <div class="item3">Pengalaman</div>
-
+    </div>
+    <h1 class="hidden">This is a hidden heading</h1>
 
 <!-- Isi Pekerjaanmu Di Sini -->
 
