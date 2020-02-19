@@ -1,5 +1,6 @@
-<style>
-h1 {
-    font-family: verdana;
-}
-</style>
+span {
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+  }
